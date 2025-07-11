@@ -1,0 +1,53 @@
+﻿<Page x:Class="CybersecurityChatbot.ChatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Chat">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- ASCII Art Header -->
+        <Border Grid.Row="0" Style="{StaticResource CardStyle}" Background="{StaticResource PrimaryBrush}">
+            <TextBlock Text="🛡️ CYBERSECURITY AWARENESS BOT 🛡️&#x0a;     ╔══════════════════════════════╗&#x0a;     ║  Your Digital Safety Guardian ║&#x0a;     ╚══════════════════════════════╝"
+                       FontFamily="Consolas" 
+                       FontSize="16" 
+                       Foreground="White"
+                       TextAlignment="Center"
+                       LineHeight="20"/>
+        </Border>
+
+        <!-- Chat Area -->
+        <ScrollViewer Grid.Row="1" Name="ChatScrollViewer" 
+                      VerticalScrollBarVisibility="Auto"
+                      Margin="0,10">
+            <StackPanel Name="ChatPanel" Margin="10"/>
+        </ScrollViewer>
+
+        <!-- Input Area -->
+        <Border Grid.Row="2" Style="{StaticResource CardStyle}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Name="InputTextBox" 
+                         Grid.Column="0"
+                         Style="{StaticResource ModernTextBoxStyle}"
+                         Margin="0,0,10,0"
+                         KeyDown="InputTextBox_KeyDown"
+                         Text="Hi! What's your name?"/>
+
+                <Button Name="SendButton" 
+                        Grid.Column="1"
+                        Content="Send 📤"
+                        Style="{StaticResource ModernButtonStyle}"
+                        Click="SendButton_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CybersecurityChatbot", "CybersecurityChatbot\CybersecurityChatbot.csproj", "{87473F3E-D8AA-4D13-9F90-B99ADEC47E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87473F3E-D8AA-4D13-9F90-B99ADEC47E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87473F3E-D8AA-4D13-9F90-B99ADEC47E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87473F3E-D8AA-4D13-9F90-B99ADEC47E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87473F3E-D8AA-4D13-9F90-B99ADEC47E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF4FFD5F-3F88-422E-BD88-486F2BC0430E}
+	EndGlobalSection
+EndGlobal
