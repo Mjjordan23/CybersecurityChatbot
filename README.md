@@ -15,6 +15,10 @@ A smart desktop-based chatbot built using WPF (XAML & C#) to promote cybersecuri
 - 💬 Basic natural language simulation
 - 🧾 Activity logger (simple text-based logs)
 
+## 📷 Screenshots
+
+
+
 ## 💡 Lessons Learned
 - Practiced WPF XAML GUI layout and control binding  
 - Worked with logic flow and conditional responses  
